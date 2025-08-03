@@ -1,0 +1,9 @@
+version: 2
+
+sources:
+  - name: retail
+    database: proud-life-467704-k6 # Put the project id!
+
+    tables:
+      - name: raw_invoices
+      - name: country

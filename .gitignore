@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Airflow
+logs/
+airflow.db
+unittests.cfg
+
+# dbt
+dbt_packages/
+target/
+
+# Environment files
+.env
+.env.*
+
+# VS Code
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db

@@ -1,0 +1,12 @@
+retail:
+ target: dev
+ outputs:
+  dev:
+    type: bigquery
+    method: service-account
+    keyfile: /opt/airflow/include/gcp/service_account.json
+    project: proud-life-467704-k6
+    dataset: retail
+    threads: 1
+    timeout_seconds: 300
+    location: US
